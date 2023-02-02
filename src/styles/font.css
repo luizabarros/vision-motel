@@ -6,7 +6,8 @@
 .courtesies h3,
 .cards-itemText,
 .mapsText,
-.footer {
+.footer,
+.headerDesktop h1 {
     text-align: center;
 }
 
@@ -14,7 +15,8 @@
     font: var(--text1);
 }
 
-.mainIntroduction--bigger, .footer h2 {
+.mainIntroduction--bigger, 
+.footer h2 {
     font: var(--title1);
 }
 
@@ -24,7 +26,10 @@
 .carousel-suiteInfo p,
 .cards-itemText p,
 .mapsText p,
-.copyright {
+.copyright,
+.headerDesktop li,
+.headerDesktop a,
+.footerContainerDesktop {
     font: var(--text2);
 }
 
@@ -35,7 +40,7 @@
     font: var(--text3);
 }
 
-.headerSuits h1 {
+.headerSuits h1, .headerDesktop h1 {
     font: var(--title2);
     text-transform: uppercase;
     line-height: 20px;

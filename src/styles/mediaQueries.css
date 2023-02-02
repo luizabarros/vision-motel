@@ -7,11 +7,191 @@
 
     .carousel-suiteInfo {
         left: 0;
-        transform: translateX(14%);
+        transform: translateX(25%);
     }
 
     .motelInfo {
         left: 0;
+        transform: translateX(35%);
+    }
+}
+
+@media (min-width: 414px) {
+    .carousel-suiteInfo {
+        left: 0;
+        transform: translateX(35%);
+    }
+
+    .motelInfo {
+        left: 0;
+        transform: translateX(45%);
+    }
+}
+
+@media (min-width: 540px) {
+    .carousel-suiteInfo {
+        left: 0;
+        transform: translateX(60%);
+    }
+
+    .motelInfo {
+        left: 0;
+        transform: translateX(80%);
+    }
+}
+
+@media (min-width: 768px) {
+    .carousel-suiteInfo {
+        left: 0;
+        transform: translateX(115%);
+    }
+
+    .motelInfo {
+        left: 0;
+        transform: translateX(135%);
+    }
+}
+
+@media (min-width: 912px) {
+    .carousel-suiteInfo {
+        left: 0;
+        transform: translateX(135%);
+    }
+
+    .motelInfo {
+        left: 0;
+        transform: translateX(165%);
+    }
+}
+
+@media (min-width: 1000px) {
+    body {
+        flex-direction: column;
+    }
+
+    .headerDesktop.inactive {
+        padding: 30px 10px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: absolute;
+        top: 0;
+        gap: 150px;
+    }
+
+    .headerDesktop--menu ul {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .carousel {
+        margin: 0 auto;
+    }
+
+    .carousel, .carousel-imgWrapper {
+        max-width: 752px;
+    }
+
+    .carousel-imgWrapper img {
+        height: 440px;
+    }
+
+    .carousel-suiteInfo {
+        flex-direction: row;
+        transform: translateX(60%);
+        width: 342px;
+    }
+
+    .carousel-suiteInfo h4 {
+        margin-bottom: 10px;
+    }
+
+    .motel {
+        min-height: 100vh;
+    }
+
+    .motelPosition {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: center;
+        align-items: center;
+        padding: 80px 0;
+    }
+
+    .motelInfo {
         transform: translateX(25%);
+        height: 512px;
+        width: 568px;
+        left: 0px;
+        top: 32px;
+        padding: 30px;
+        justify-content: space-evenly;
+    }
+
+    .motelImg img {
+        position: absolute;
+        height: 512px;
+        width: 568px;
+        left: 710px;
+        top: 70px;
+        z-index: 1;
+    }
+
+    .fa {
+        display: none;
+    }
+
+    .cards {
+        display: flex;
+        gap: 30px;
+    }
+
+    .maps {
+        height: 80vh;
+    }
+
+    .mapsContainer {
+        flex-direction: row;
+        height: 100%;
+        max-width: 992px;
+        margin: 0 auto;
+    }
+
+    .mapsContainer iframe, .mapsText {
+        width: 496px;
+        height: 290px;
+    }
+
+    .footer {
+        max-height: 60vh;
+    }
+
+    .footerContainer.inactive {
+        display: none;
+    }
+
+    .footerContainerDesktop {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 30px;
+    }
+
+    .footerText1, .footerText2, .footerText3 {
+        width: 263px;
+    }
+
+    .footerText2 {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .footerText2 div, .footerText3 {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
     }
 }

@@ -8,7 +8,8 @@
 .btn--headerSuits,
 .btn-carousel,
 .btn-motelInfo,
-.btnFooter {
+.btnFooter,
+.btn-header {
     width: 120px;
     height: 40px;
     margin: 3px;

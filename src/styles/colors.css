@@ -6,16 +6,22 @@
 
 .carousel-suiteInfo, 
 .motelInfo,
-.cards-itemText {
+.cards-itemText,
+.btn-header {
     color: var(--darkBrown2);
 }
 
 .whiteColor,
+.whiteColor a,
 .headerSuits a,
 .mainCarousel h3,
 .btn-motelInfo,
 .courtesies h3,
-.footer a {
+.footer a,
+.headerDesktop h1,
+.headerDesktop li,
+a:hover,
+.whiteColor:hover {
     color: var(--white);
 }
 
@@ -44,7 +50,8 @@
 .motelInfo,
 .cards-itemText,
 .mapsText,
-.line {
+.line,
+.btn-header {
     background-color: var(--white);
 }
 
@@ -58,5 +65,5 @@
 }
 
 .copyright {
-    background-color: black;
+    background-color: var(--black);
 }
