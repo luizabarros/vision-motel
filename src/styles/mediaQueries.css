@@ -1,0 +1,17 @@
+@media (min-width: 324px) {
+    .carousel-imgWrapper {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .carousel-suiteInfo {
+        left: 0;
+        transform: translateX(14%);
+    }
+
+    .motelInfo {
+        left: 0;
+        transform: translateX(25%);
+    }
+}
