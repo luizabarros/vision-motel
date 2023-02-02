@@ -6,6 +6,7 @@
 
 body {
     background: no-repeat url("../assets/slider-m.png");
+    background-size: cover;
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -20,4 +21,11 @@ body {
     display: flex;
     flex-direction: column;
     margin: 5px;
+}
+
+.headerDesktop h1 {
+    width: 60px;
+    display: flex;
+    justify-content: center;    
+    align-items: center;
 }
