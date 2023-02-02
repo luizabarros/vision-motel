@@ -1,0 +1,69 @@
+.headerSuits, 
+.btn-cards,
+.footer {
+    background: var(--darkBrown2);
+}
+
+.carousel-suiteInfo, 
+.motelInfo,
+.cards-itemText,
+.btn-header {
+    color: var(--darkBrown2);
+}
+
+.whiteColor,
+.whiteColor a,
+.headerSuits a,
+.mainCarousel h3,
+.btn-motelInfo,
+.courtesies h3,
+.footer a,
+.headerDesktop h1,
+.headerDesktop li,
+a:hover,
+.whiteColor:hover {
+    color: var(--white);
+}
+
+.btn--introduction, 
+.btn--headerSuits,
+.btn-carousel,
+.btn-motelInfo,
+.btn-maps,
+.btnFooter--brown  {
+    background: var(--darkBrown);
+}
+
+.btn--introduction:hover, 
+.btn--headerSuits:hover,
+.btn-carousel:hover,
+.btn-motelInfo:hover,
+.btn-maps:hover,
+.btnFooter--brown:hover {
+    background: var(--lightBrown);
+    transition: .3s;
+}
+
+.carousel-control-prev, 
+.carousel-control-next,
+.carousel-suiteInfo,
+.motelInfo,
+.cards-itemText,
+.mapsText,
+.line,
+.btn-header {
+    background-color: var(--white);
+}
+
+.motel, .maps {
+    background-color: var(--lightGrey);
+}
+
+
+.btnFooter--grey {
+    border: 1.5px solid var(--white);
+}
+
+.copyright {
+    background-color: var(--black);
+}

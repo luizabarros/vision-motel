@@ -1,0 +1,29 @@
+.btn, .btn--introduction {
+    display: flex;
+    justify-content: center;    
+    align-items: center;
+}
+
+.btn--introduction, 
+.btn--headerSuits,
+.btn-carousel,
+.btn-motelInfo,
+.btnFooter,
+.btn-header {
+    width: 120px;
+    height: 40px;
+    margin: 3px;
+}
+
+.btn--headerSuits,
+.btn-carousel,
+.btn-motelInfo,
+.btn-cards,
+.btn-maps,
+.btnFooter {
+    border-radius: 0;
+}
+
+.btnFooter {
+    width: 246px;
+}
