@@ -1,0 +1,23 @@
+@import './variables.css';
+@import './font.css';
+@import './colors.css';
+@import './mediaQueries.css';
+@import './btn.css';
+
+body {
+    background: no-repeat url("../assets/slider-m.png");
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inactive {
+    display: none;
+}
+
+.mainIntroduction h2 {
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+}

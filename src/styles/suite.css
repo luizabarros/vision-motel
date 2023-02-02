@@ -1,0 +1,187 @@
+@import './variables.css';
+@import './font.css';
+@import './colors.css';
+@import './mediaQueries.css';
+@import './btn.css';
+
+body {
+    background: var(--lightBrown);
+}
+
+.headerSuits {
+    height: 70px;
+    padding: 50px 32px;
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.headerSuits h1 {
+    width: 60px;
+    display: flex;
+    justify-content: center;    
+    align-items: center;
+}
+
+.mainCarousel {
+    padding: 64px 24px;
+}
+
+.mainCarousel h3 {
+    margin-bottom: 32px;
+}
+
+.carousel-inner {
+    position: relative;
+    height: 100vh;
+}
+
+.carousel-item img {
+    width: 312px;
+    height: 440px;
+}
+
+.carousel-suiteInfo, .motelInfo {
+    position: absolute;
+    top: 90%;
+    left: 10%;
+    width: 220px;
+    height: 190px;
+    padding: 32px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.carousel-control-prev, .carousel-control-next {
+    width: 40px;
+    height: 70px;
+    position: absolute;
+    top: 40%;
+}
+
+.carousel-control-prev-icon {
+    background-image: url("https://cdn-icons-png.flaticon.com/512/271/271220.png");
+}
+
+.carousel-control-next-icon {
+    background-image: url("https://cdn-icons-png.flaticon.com/512/32/32213.png");
+}
+
+.navigate {
+    text-decoration: underline;
+    padding-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.motel {
+    min-height: 150vh;
+}
+
+.motelPosition {
+    position: relative;
+}
+
+.motelImg img {
+    height: 312px;
+}
+
+.motelInfo {
+    top: 70%;
+    left: 15%;
+    height: max-content;
+    gap: 10px;
+    align-items: start;
+}
+
+.courtesies {
+    padding: 64px 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.cards-item {
+    margin-bottom: 15px;
+}
+
+.cards-itemImg {
+    height: 200px;
+}
+
+.cards-itemImg img {
+    max-width: 280px;
+}
+
+.cards-itemText {
+    padding: 0 10px;
+    height: 153px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.mapsContainer {
+    padding: 40px 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.maps { 
+    height: 120vh;  
+}
+
+.maps iframe {
+    width: 260px;
+    height: 312px;
+}
+
+.mapsText {
+    width: 260px;
+    height: 234px;
+    padding: 30px 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.footer {
+    height: 100vh;
+}
+
+.footerContainer {
+    padding: 30px 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.line {
+    display: inline-block;
+    width: 246px;
+    height: 1px;
+}
+
+.btnWrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.copyright {
+    height: 130px;
+    padding: 20px 15px;
+}

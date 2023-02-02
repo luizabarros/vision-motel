@@ -1,0 +1,15 @@
+:root {
+    --white: #ffffff;
+    --lightBrown: #7A7266;
+    --darkBrown: #5A493E;
+    --darkBrown2: #2A2A2A;
+    --lightGrey: #EEEEEE;
+    --fontFamilyPlayfair: "Playfair Display", serif;
+    --fontFamilyMontserrat: "Montserrat", sans-serif;
+    --title1: 600 4.3rem var(--fontFamilyPlayfair);
+    --title2: 500 1.6rem var(--fontFamilyPlayfair);
+    --title3: 500 2rem var(--fontFamilyPlayfair);
+    --text1: 500 1.8rem var(--fontFamilyMontserrat);
+    --text2: 400 .8rem var(--fontFamilyMontserrat);
+    --text3: 600 1.5rem var(--fontFamilyPlayfair);
+}
